@@ -12,9 +12,6 @@
 </head>
 <body>
     <%
-        List<String> userList = (List<String>) application.getAttribute("onlineUsers");
-        String name = (String) session.getAttribute("name");
-        userList.remove(name);
         session.invalidate();
         response.sendRedirect("index.jsp");
     %>
