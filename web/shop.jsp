@@ -25,7 +25,7 @@
 			for(int i=0;i<goodlistnames.length;i++){
 	%>
 	<tr height="50" align="center">
-	<form action="doCar2.jsp?action=buy&id=<%=i%>" method="post" name="form1">
+	<form action="doCar.jsp?action=buy&id=<%=i%>" method="post" name="form1">
 		<td><%=goodlistnames[i]%></td>
 		<td><%=goodlistprices[i]%></td>
 		<td><input width="10" size="5" type="text" name="aa">
@@ -37,7 +37,7 @@
 		}
 	%>
 		<tr height="50">
-			<td align="center" colspan="4"><a href="showCar2.jsp">查看购物车</a></td>
+			<td align="center" colspan="4"><a href="showCar.jsp">查看购物车</a></td>
 		</tr>
 	</table>
 	</body>

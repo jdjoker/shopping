@@ -43,12 +43,12 @@
 				buylist.add(goodInfo);
 				session.setAttribute("buylist", buylist);
 			}
-			response.sendRedirect("showCar2.jsp");
+			response.sendRedirect("showCar.jsp");
 		}
 		
 		if (action.equals("clear")){
      	buylist.clear();
-       	response.sendRedirect("showCar2.jsp");
+       	response.sendRedirect("showCar.jsp");
      }
      if(action.equals("delete")){
        	int i=Integer.parseInt(request.getParameter("id"));
@@ -63,7 +63,7 @@
      	else{
      		buylist.remove(i);
      	}
-     	response.sendRedirect("showCar2.jsp");
+     	response.sendRedirect("showCar.jsp");
      }
 		
 		

@@ -34,7 +34,7 @@
 		<td><%=price%></td>
 		<td><%=num%></td>
 		<td><%=money%></td>
-		<td><a href="doCar2.jsp?action=delete&id=<%=i%>">移除</a></td>
+		<td><a href="doCar.jsp?action=delete&id=<%=i%>">移除</a></td>
 	</tr>
 	<%							
 			}
@@ -42,7 +42,7 @@
 	%>
 	<tr height="50" align="center"><td colspan="5">应付金额：<%=total%></td></tr>
 	<tr height="50" align="center">
-		<td colspan="2"><a href="index2.jsp">继续购物</a></td>
-		<td colspan="3"><a href="doCar2.jsp?action=clear">清空购物车</a></td>
+		<td colspan="2"><a href="shop.jsp">继续购物</a></td>
+		<td colspan="3"><a href="doCar.jsp?action=clear">清空购物车</a></td>
 	</tr>				
 </table>
