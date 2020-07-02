@@ -37,7 +37,7 @@
 		}
 	%>
 		<tr height="50">
-			<td align="center" colspan="4"><a href="showCar.jsp">查看购物车</a></td>
+			<div style="position:absolute;top:10%;left:41%;><td colspan="4"><a href="showCar.jsp">查看购物车</a></td><a href="index.jsp">回到登录界面</a></div>
 		</tr>
 	</table>
 	</body>
