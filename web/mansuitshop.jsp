@@ -1,47 +1,67 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-
 <head>
     <title>Online Shop</title>
 </head>
-<body style="height:1600px">
-<img style="position:absolute;height:1450px;width:100%;" src="背景.jpg" >
+<body style="height:1450px">
+<img style="position:absolute;height:1500px;width:1500px;" src="背景.jpg" >
+
 <div style="position:absolute;top:3.6%;left:33%;font-size:40px;">Online Shop：Man Suit Shop</div>
-<%!
-    String[] goodlistnames={"T恤", "裤子", "男性睡衣", "鞋子"};
-    float[] goodlistprices={29.9f, 49.9f, 59.0f, 339.0f};
-%>
-<table style="position:absolute;top:15%;left:20%; border-style:solid;" border="1"  width="1000" height="900" cellspacing="3" cellpadding="3">
-    <tr height="50"><td style="font-size:30px"colspan="5" align="center">男装类：</td></tr>
-    <tr style="font-size:23px"align="center" height="50"  bgcolor="lightgrey">
-        <td width="200">商品展示</td>
+
+<table style="position:absolute;top:15%;left:20%; border-style:solid;" border="1"  width="850" height="900" cellspacing="3" cellpadding="3">
+    <tr height="60"><td style="font-size:30px"colspan="5" align="center">男装类：</td></tr>
+    <tr style="font-size:23px"align="center" height="40"  bgcolor="lightgrey">
+        <td width="150">商品展示</td>
         <td width="100">名称</td>
-        <td width="200">价格(元/件)</td>
+        <td width="100">价格(元/斤)</td>
         <td width="150">数量</td>
         <td width="100">购买</td>
     </tr>
-    <%  if(goodlistnames==null||goodlistnames.length==0){ %>
-    <tr height="100"><td colspan="5" align="center">没有商品可显示！</td></tr>
-    <%
-    }
-    else{
-        for(int i=0;i<goodlistnames.length;i++){
-    %>
+
 
     <tr  height="60" align="center">
-        <form action="domanCar.jsp?action=buy&id=<%=i%>" method="post" name="form1">
-            <td>    </td>
-            <td style="font-size:40px"><%=goodlistnames[i]%></td>
-            <td style="font-size:35px"><%=goodlistprices[i]%></td>
-            <td ><input style="width:130px;height:30px" size="15" type="text" name="aa">
+        <form action="dofruitCar.jsp?action=buy&id=0" method="post" name="form1">
+            <td> <img  src="/untitled5/web/images/男t恤.jpg" height="152" width="200">   </td>
+            <td style="font-size:40px">T恤</td>
+            <td style="font-size:35px">29.9</td>
+            <td ><input style="width:130px;height:40px" size="15" type="text" name="aa">
             <td ><input style="font-size:25px;height:50px;width:100px;" type="submit" name="buy"  value="购买"></td>
         </form>
     </tr>
-    <%
-            }
-        }
-    %>
+
+
+    <tr  height="60" align="center">
+        <form action="dofruitCar.jsp?action=buy&id=1" method="post" name="form1">
+            <td>  <img  src="/untitled5/web/images/男裤子.jpg" height="152" width="200">  </td>
+            <td style="font-size:40px">裤子</td>
+            <td style="font-size:35px">49.9</td>
+            <td ><input style="width:130px;height:40px" size="15" type="text" name="aa">
+            <td ><input style="font-size:25px;height:50px;width:100px;" type="submit" name="buy"  value="购买"></td>
+        </form>
+    </tr>
+
+
+    <tr  height="60" align="center">
+        <form action="dofruitCar.jsp?action=buy&id=2" method="post" name="form1">
+            <td> <img  src="/untitled5/web/images/男睡衣.jpg" height="152" width="200">   </td>
+            <td style="font-size:40px">男性睡衣</td>
+            <td style="font-size:35px">59.0</td>
+            <td ><input style="width:130px;height:40px" size="15" type="text" name="aa">
+            <td ><input style="font-size:25px;height:50px;width:100px;" type="submit" name="buy"  value="购买"></td>
+        </form>
+    </tr>
+
+
+    <tr  height="60" align="center">
+        <form action="dofruitCar.jsp?action=buy&id=3" method="post" name="form1">
+            <td> <img  src="/untitled5/web/images/男鞋子.jpg" height="152" width="200">   </td>
+            <td style="font-size:40px">鞋子</td>
+            <td style="font-size:35px">339.0</td>
+            <td ><input style="width:130px;height:40px" size="15" type="text" name="aa">
+            <td ><input style="font-size:25px;height:50px;width:100px;" type="submit" name="buy"  value="购买"></td>
+        </form>
+    </tr>
 
     <div style="position:absolute;top:1080px;left:26%";><a href="showCar.jsp"><input style="height:60px;width:150px;" type="button" value='查看购物车'></a></div>
     <div style="position:absolute;top:1080px;left:58%";><a href="index.jsp"><input style="height:60px;width:150px;" type="button" value='回到登录界面'></a></div>
