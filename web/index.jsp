@@ -18,14 +18,14 @@
 <div style="position:absolute;top:15%;left:40%;font-size:50px;"> </div>
 <div style="position:absolute;top:20%;left:40%;font-size:50px;"> </div>
 <div style="position:absolute;top:25%;left:40%;font-size:50px;"> </div>
-<div style="position:absolute;top:45%;left:41.9%;font-size:50px;" >
+<div style="position:absolute;top:43%;left:41.9%;font-size:50px;" >
     <%
     if (session.getAttribute("name") != null) {
-        out.println("<a href='logout.jsp'>*****注销*****</a>"+"</br>");
-        out.println("<a href='fruitshop.jsp'>*请进入商店*</a>");
+        out.println("<a href='logout.jsp'>***注销***</a>"+"</br>");
+        out.println("<a href='fruitshop.jsp'>请进入商店</a>");
     } else {
-        out.println("***");
-       out.println("<a href='login.html'>请登录</a>");out.println("***");
+        out.println("**");
+       out.println("<a href='login.html'>请登录</a>");out.println("**");
     }
 %>
 </div>

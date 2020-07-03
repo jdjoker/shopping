@@ -23,7 +23,7 @@
         String name=request.getParameter("username");
         String pass=request.getParameter("password");
         String pass1=request.getParameter("password1");%>
-    <div style="position:absolute;top:40%;left:37%;font-size:80px;">
+    <div style="position:absolute;top:40%;left:35%;font-size:80px;">
         <%
         if(pass.equals(pass1)&& UserDao.register(name,pass)){
             out.println("注册成功！");
