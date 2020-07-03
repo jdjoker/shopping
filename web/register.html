@@ -2,18 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>注册</title>
+    <title>注册界面</title>
 </head>
 <body>
-    <div align="middle">
-        <form action="register.jsp" method="post">
-            <div style="position:absolute;top:10%; left:39%;">设置账号：<input type="text" name="username"><br></div>
-            <div style="position:absolute;top:15%; left:39%;">设置密码：<input type="password" name="password"><br></div>
-            <div style="position:absolute;top:20%; left:39%;">确认密码：<input type="password" name="password1"><br></div>
-            <div style="position:absolute;top:25%; left:45%;"><input type="reset" value="重置"></div>
-            <div style="position:absolute;top:25%; left:50%;"><input type="submit"value="提交"> <br></div>
-        </form>
-    </div>
-    <div style="position:absolute;top:30%; left:44%;">已有账号？<a href="login.html">请登录</a></div>
+<div style="position:absolute;top:10%;left:45%;font-size:50px">
+    注册界面
+</div>
+<div>
+    <form action="register.jsp" method="post">
+        <table style="position:absolute;top:20%;left:35%;" border='1' width="600" height="220" cellspacing="0" cellpadding="0" >
+            <tr align="center">
+                <td style="font-size:30px" width="160">设置账号：</td>
+                <td ><input style="height: 60px;width:400px;font-size:40px;" type="text" name="username"><br></td>
+            </tr>
+            <tr align="center">
+                <td style="font-size:30px" width="160">设置密码：</td>
+                <td ><input style="height: 60px;width:400px;font-size:40px;" type="password" name="password"><br></td>
+            </tr>
+            <tr align="center">
+                <td style="font-size:30px" width="160">确认密码：</td>
+                <td ><input style="height: 60px;width:400px;font-size:40px;" type="password" name="password1"><br></td>
+            </tr>
+        </table>
+
+        <input style="position:absolute;top:48%;left:41.5%;height: 40px;width:100px;font-size:20px;" type="reset" value="重置">
+        <input style="position:absolute;top:48%;left:54.5%;height: 40px;width:100px;font-size:20px;" type="submit" value="提交"></br>
+    </form>
+
+
+
+
+</div>
+<div style="position:absolute;top:55%; left:42.2%;font-size:40px;">已有账号？<a href="login.html">请登录</a></div>
 </body>
 </html>

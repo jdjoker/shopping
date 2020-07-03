@@ -8,13 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>注册界面</title>
 </head>
 <body>
     <%
         String name=request.getParameter("username");
         String pass=request.getParameter("password");
-        String pass1=request.getParameter("password1");
+        String pass1=request.getParameter("password1");%>
+    <div style="position:absolute;top:40%;left:37%;font-size:80px;">
+        <%
         if(pass.equals(pass1)&& UserDao.register(name,pass)){
             out.println("注册成功！");
 
@@ -25,5 +27,6 @@
             out.println("<a href='register.html'>重新注册</a>");
         }
     %>
+    </div>
 </body>
 </html>

@@ -16,7 +16,7 @@
 	float[] goodlistprices={2.8f,3.1f,2.5f,2.3f};
 	%>
 	<table style="position:absolute;top:15%;left:20%; border-style:solid;" border="1"  width="1000" height="900" cellspacing="3" cellpadding="3">
-	<tr height="50"><td style="font-size:30px"colspan="5" align="center">提供商品如下</td></tr>
+	<tr height="50"><td style="font-size:30px"colspan="5" align="center">提供商品如下：</td></tr>
 	<tr style="font-size:23px"align="center" height="50"  bgcolor="lightgrey">
 		<td width="150">商品展示</td>
 		<td width="100">名称</td>
