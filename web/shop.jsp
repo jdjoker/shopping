@@ -2,43 +2,54 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <title>基于JSP的简单购物车</title>
+    <title>Online Shop</title>
   </head>
-  <body>
+  <body style="height:1600px">
+
+  <img style="position:absolute;top:45%;left:20.3%;" src="${pageContext.request.contextPath}/images/苹果.jpg" height="152" width="240">
+  <img style="position:absolute;top:62%;left:20.3%;" src="${pageContext.request.contextPath}/images/香蕉.jpg" height="152" width="240">
+  <img style="position:absolute;top:79.6%;left:20.3%;" src="${pageContext.request.contextPath}/images/梨.jpg" height="152" width="240">
+  <img style="position:absolute;top:97%;left:20.3%;" src="${pageContext.request.contextPath}/images/橘子.jpg" height="152" width="240">
+  <div style="position:absolute;top:3.6%;left:40%;font-size:40px;">Online Shop</div>
 	<%! 
 	String[] goodlistnames={"苹果","香蕉","梨","橘子"};
 	float[] goodlistprices={2.8f,3.1f,2.5f,2.3f};
 	%>
-	<table border="1" width="500" rules="none" cellspacing="0" cellpadding="0">
-	<tr height="50"><td colspan="4" align="center">提供商品如下</td></tr>
-	<tr align="center" height="30" bgcolor="lightgrey">
-		<td>名称</td>
-		<td>价格(元/斤)</td>
-		<td>数量</td>
-		<td>购买</td>
+	<table style="position:absolute;top:15%;left:20%; border-style:solid;" border="1"  width="1000" height="900" cellspacing="3" cellpadding="3">
+	<tr height="50"><td style="font-size:30px"colspan="5" align="center">提供商品如下</td></tr>
+	<tr style="font-size:23px"align="center" height="50"  bgcolor="lightgrey">
+		<td width="150">商品展示</td>
+		<td width="100">名称</td>
+		<td width="100">价格(元/斤)</td>
+		<td width="150">数量</td>
+		<td width="100">购买</td>
 	</tr>
 	<%  if(goodlistnames==null||goodlistnames.length==0){ %>
-	<tr height="100"><td colspan="4" align="center">没有商品可显示！</td></tr>
+	<tr height="100"><td colspan="5" align="center">没有商品可显示！</td></tr>
 	<% 
 		} 
 		else{
 			for(int i=0;i<goodlistnames.length;i++){
 	%>
-	<tr height="50" align="center">
+
+	<tr  height="60" align="center">
 	<form action="doCar.jsp?action=buy&id=<%=i%>" method="post" name="form1">
-		<td><%=goodlistnames[i]%></td>
-		<td><%=goodlistprices[i]%></td>
-		<td><input width="10" size="5" type="text" name="aa">
-		<td><input type="submit" name="buy"  value="购买"></td>
+		<td>    </td>
+		<td style="font-size:40px"><%=goodlistnames[i]%></td>
+		<td style="font-size:35px"><%=goodlistprices[i]%></td>
+		<td ><input style="width:130px;height:30px" size="15" type="text" name="aa">
+		<td ><input style="font-size:25px;height:50px;width:100px;" type="submit" name="buy"  value="购买"></td>
 	</form>
-	</tr>
+		</tr>
 	<%
 			}
 		}
 	%>
-		<tr height="50">
-			<div style="position:absolute;top:10%;left:41%;><td colspan="4"><a href="showCar.jsp">查看购物车</a></td><a href="index.jsp">回到登录界面</a></div>
-		</tr>
+
+			<div style="position:absolute;top:1100px;left:37%";><a href="showCar.jsp"><input style="height:60px;width:100px;" type="button" value='查看购物车'></a></div>
+			<div style="position:absolute;top:1100px;left:51%";><a href="index.jsp"><input style="height:60px;width:100px;" type="button" value='回到登录界面'></a></div>
+
+
 	</table>
 	</body>
 </html>
