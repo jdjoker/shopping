@@ -7,10 +7,18 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<style>
+    img{
+        position:absolute;
+        height:100%;
+        width:100%;
+    }
+</style>
 <head>
     <title>注册界面</title>
 </head>
 <body>
+<img  src="背景.jpg" >
     <%
         String name=request.getParameter("username");
         String pass=request.getParameter("password");
