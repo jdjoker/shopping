@@ -5,7 +5,7 @@
     <title>Online Shop</title>
 </head>
 <body style="height:1450px">
-<img style="position:absolute;height:1500px;width:1500px;" src="背景.jpg" >
+<img style="position:absolute;height:1500px;width:1500px;" src="/untitled5/web/images/背景.jpg" >
 
 <div style="position:absolute;top:3.6%;left:31%;font-size:40px;">Online Shop：Woman Suit Shop</div>
 

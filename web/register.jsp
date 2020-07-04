@@ -18,7 +18,7 @@
     <title>注册界面</title>
 </head>
 <body>
-<img  src="背景.jpg" >
+<img  src="/untitled5/web/images/背景.jpg" >
     <%
         String name=request.getParameter("username");
         String pass=request.getParameter("password");
