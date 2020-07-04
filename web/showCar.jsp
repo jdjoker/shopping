@@ -9,10 +9,10 @@
 	ArrayList buylist=(ArrayList)session.getAttribute("buylist");
 	float total=0; 							//用来存储应付金额
 %>
-<div style="position:absolute;top:3.6%;left:49%;font-size:40px;">购物车</div>
+<div style="position:absolute;top:3.6%;left:49%;font-size:50px">购物车</div>
 
 <table style="position:absolute;top:15%;left:25%; border-style:solid;" border="1"  width="850" height="900" cellspacing="3" cellpadding="3">
-	<tr height="50"><td colspan="5" align="center">购买的商品如下</td></tr>
+	<tr height="50"><td style="font-size:35px" colspan="5" align="center">购买的商品如下</td></tr>
 	<tr align="center" height="30" bgcolor="lightgrey">
 		<td width="20%">名称</td>
 		<td >价格(元/斤)</td>
@@ -21,7 +21,7 @@
 		<td >移除(-1/次)</td>
 	</tr>
 	<%	if(buylist==null||buylist.size()==0){ %>
-	<tr height="100"><td colspan="5" align="center">您的购物车为空！</td></tr>
+	<tr height="100"><td style="font-size:45px" colspan="5" align="center" >您的购物车为空！</td></tr>
 	<% 
 		}
 		else{
@@ -47,12 +47,12 @@
 			}
 		}
 	%>
-	<tr height="50" align="center"><td colspan="5">应付金额：<%=total%></td></tr>
+	<tr height="50" align="center"><td style="font-size:40px" colspan="5">应付金额：<%=total%></td></tr>
 	<tr height="50" align="center">
-		<td  colspan="1"><a href="fruitshop.jsp">继续购物</a></td>
-		<td  colspan="1" ><a href="pay.html">支付</a></td>
-		<td  colspan="2" ><a href="index.jsp">返回登录界面</a></td>
-		<td  colspan="1"><a href="dofruitCar.jsp?action=clear">清空购物车</a></td>
+		<td  colspan="1"><a style="font-size:30px" href="fruitshop.jsp">继续购物</a></td>
+		<td  colspan="1" ><a style="font-size:30px" href="pay.html">支付</a></td>
+		<td  colspan="2" ><a style="font-size:30px" href="index.jsp">返回登录界面</a></td>
+		<td  colspan="1"><a style="font-size:30px" href="dofruitCar.jsp?action=clear">清空购物车</a></td>
 
 	</tr>				
 </table>
