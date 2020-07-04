@@ -34,6 +34,7 @@
 				//计算当前商品总价，并进行四舍五入
 				float money=((int)((price*num+0.05f)*10))/10f;
 				total+=money; 							//计算应付金额
+
 	%>
 	<tr align="center" height="50">
 		<td><%=name%></td>

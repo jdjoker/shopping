@@ -21,7 +21,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=0" method="post" name="form1">
+        <form action="doeleCar.jsp?action=buy&id=0" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/电视.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">电视</td>
             <td style="font-size:35px">1599.0</td>
@@ -32,7 +32,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=1" method="post" name="form1">
+        <form action="doeleCar.jsp?action=buy&id=1" method="post" name="form1">
             <td>  <img  src="/untitled5/web/images/电脑.jpg" height="152" width="200">  </td>
             <td style="font-size:40px">电脑</td>
             <td style="font-size:35px">5399.0</td>
@@ -43,7 +43,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=2" method="post" name="form1">
+        <form action="doeleCar.jsp?action=buy&id=2" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/空调.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">空调</td>
             <td style="font-size:35px">1399.0</td>
@@ -54,7 +54,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=3" method="post" name="form1">
+        <form action="doeleCar.jsp?action=buy&id=3" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/冰箱.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">冰箱</td>
             <td style="font-size:35px">1299.0</td>

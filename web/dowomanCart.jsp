@@ -5,7 +5,7 @@
     <title>购物车主页面</title>
 </head>
 <body>
-<%!String[] goodlistnames = { "连衣裙","T恤","裤子","鞋子"};
+<%!String[] goodlistnames = { "连衣裙","女T恤","女裤","女鞋"};
     float[] goodlistprices = {118.0f,59.0f,79.0f,228.0f };%>
 <%
     ArrayList buylist = (ArrayList) session.getAttribute("buylist");

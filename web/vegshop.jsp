@@ -21,7 +21,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=0" method="post" name="form1">
+        <form action="dovegCart.jsp?action=buy&id=0" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/西红柿.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">西红柿</td>
             <td style="font-size:35px">1.3</td>
@@ -32,7 +32,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=1" method="post" name="form1">
+        <form action="dovegCart.jsp?action=buy&id=1" method="post" name="form1">
             <td>  <img  src="/untitled5/web/images/土豆.jpg" height="152" width="200">  </td>
             <td style="font-size:40px">土豆</td>
             <td style="font-size:35px">1.1</td>
@@ -43,7 +43,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=2" method="post" name="form1">
+        <form action="dovegCart.jsp?action=buy&id=2" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/胡萝卜.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">胡萝卜</td>
             <td style="font-size:35px">3.5</td>
@@ -54,7 +54,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=3" method="post" name="form1">
+        <form action="dovegCart.jsp?action=buy&id=3" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/卷心菜.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">卷心菜</td>
             <td style="font-size:35px">2.1</td>

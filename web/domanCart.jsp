@@ -5,7 +5,7 @@
     <title>男装</title>
 </head>
 <body>
-<%!String[] goodlistnames = { "T恤", "裤子", "男性睡衣", "鞋子" };
+<%!String[] goodlistnames = { "男T恤", "男裤", "男性睡衣", "男鞋" };
     float[] goodlistprices = { 29.9f, 49.9f, 59.0f, 339.0f };%>
 <%
     ArrayList buylist = (ArrayList) session.getAttribute("buylist");

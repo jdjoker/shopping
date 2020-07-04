@@ -21,9 +21,9 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=0" method="post" name="form1">
+        <form action="domanCart.jsp?action=buy&id=0" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/男t恤.jpg" height="152" width="200">   </td>
-            <td style="font-size:40px">T恤</td>
+            <td style="font-size:40px">男T恤</td>
             <td style="font-size:35px">29.9</td>
             <td ><input style="width:130px;height:40px" size="15" type="text" name="aa">
             <td ><input style="font-size:25px;height:50px;width:100px;" type="submit" name="buy"  value="购买"></td>
@@ -32,9 +32,9 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=1" method="post" name="form1">
+        <form action="domanCart.jsp?action=buy&id=1" method="post" name="form1">
             <td>  <img  src="/untitled5/web/images/男裤子.jpg" height="152" width="200">  </td>
-            <td style="font-size:40px">裤子</td>
+            <td style="font-size:40px">男裤</td>
             <td style="font-size:35px">49.9</td>
             <td ><input style="width:130px;height:40px" size="15" type="text" name="aa">
             <td ><input style="font-size:25px;height:50px;width:100px;" type="submit" name="buy"  value="购买"></td>
@@ -43,7 +43,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=2" method="post" name="form1">
+        <form action="domanCart.jsp?action=buy&id=2" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/男睡衣.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">男性睡衣</td>
             <td style="font-size:35px">59.0</td>
@@ -54,9 +54,9 @@
 
 
     <tr  height="60" align="center">
-        <form action="dofruitCar.jsp?action=buy&id=3" method="post" name="form1">
+        <form action="domanCart.jsp?action=buy&id=3" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/男鞋子.jpg" height="152" width="200">   </td>
-            <td style="font-size:40px">鞋子</td>
+            <td style="font-size:40px">男鞋</td>
             <td style="font-size:35px">339.0</td>
             <td ><input style="width:130px;height:40px" size="15" type="text" name="aa">
             <td ><input style="font-size:25px;height:50px;width:100px;" type="submit" name="buy"  value="购买"></td>
