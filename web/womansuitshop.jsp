@@ -21,7 +21,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dowomanCart.jsp?action=buy&id=0" method="post" name="form1">
+        <form action="dowomanCar.jsp?action=buy&id=0" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/女连衣裙.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">连衣裙</td>
             <td style="font-size:35px">118.0</td>
@@ -32,7 +32,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dowomanCart.jsp?action=buy&id=1" method="post" name="form1">
+        <form action="dowomanCar.jsp?action=buy&id=1" method="post" name="form1">
             <td>  <img  src="/untitled5/web/images/女t恤.jpg" height="152" width="200">  </td>
             <td style="font-size:40px">女T恤</td>
             <td style="font-size:35px">59.0</td>
@@ -43,7 +43,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dowomanCart.jsp?action=buy&id=2" method="post" name="form1">
+        <form action="dowomanCar.jsp?action=buy&id=2" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/女裤子.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">女裤</td>
             <td style="font-size:35px">79.0</td>
@@ -54,7 +54,7 @@
 
 
     <tr  height="60" align="center">
-        <form action="dowomanCart.jsp?action=buy&id=3" method="post" name="form1">
+        <form action="dowomanCar.jsp?action=buy&id=3" method="post" name="form1">
             <td> <img  src="/untitled5/web/images/女鞋子.jpg" height="152" width="200">   </td>
             <td style="font-size:40px">女鞋</td>
             <td style="font-size:35px">228.0</td>
