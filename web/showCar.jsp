@@ -47,7 +47,7 @@
 			}
 		}
 	%>
-	<tr height="50" align="center"><td style="font-size:40px" colspan="5">应付金额：<%=total%></td></tr>
+	<tr height="50" align="center"><td style="font-size:40px" colspan="5">应付金额：<%=total%>元</td></tr>
 	<tr height="50" align="center">
 		<td  colspan="1"><a style="font-size:30px" href="fruitshop.jsp">继续购物</a></td>
 		<td  colspan="1" ><a style="font-size:30px" href="pay.html">支付</a></td>
