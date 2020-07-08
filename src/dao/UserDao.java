@@ -4,11 +4,7 @@ import java.util.HashMap;
 
 public class UserDao {
     static HashMap<String, String> users = new HashMap<>();//内存数据库
-    static{
-        users.put("admin","123456");
-        users.put("tom","123");
-        users.put("cat",null);
-    }
+
     public static boolean register(String name, String pass) {
         if (users.containsKey(name) || name.trim().isEmpty()) {
             System.err.println("注册失败");
@@ -45,14 +41,7 @@ public class UserDao {
 
     public static void main(String[] args) {
 
-        register("tom", "123456");
-        register("cat", "666666");
-        System.out.println(login("tom", "123456"));
-        System.out.println(login("tom", "222222"));
-        System.out.println(updatePassword("tom", "123456", "654321"));
 
-        System.out.println(login("tom", "123456"));
-        System.out.println(login("tom", "654321"));
     }
 
 
